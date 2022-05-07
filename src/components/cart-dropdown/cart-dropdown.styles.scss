@@ -15,12 +15,12 @@
       font-size: 18px;
       margin: 50px auto;
     }
-    .cart-dropdown-items:-webkit-scrollbar{
+    .cart-dropdown-items{
       height: 240px;
       display: flex;
       flex-direction: column;
       overflow: scroll;
-      display: none;
+      // display: none;
     }
     button {
       margin-top: auto;
