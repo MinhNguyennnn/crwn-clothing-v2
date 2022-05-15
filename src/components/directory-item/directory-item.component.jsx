@@ -3,7 +3,6 @@ import "./directory-item.styles.scss";
 
 const DirectoryItem = ({ category }) => {
   const navigate = useNavigate();
-  console.log('navigate',navigate)
   const { imageUrl, title } = category;
 
   const navigateLinkHandler = () => navigate(`shop/${title}`);
